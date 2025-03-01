@@ -4,11 +4,257 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="header-logo" href="./index.html">
+            <img
+              src="./images/index-images/logo.png"
+              alt="logo"
+              width="40"
+              height="36"
+            />Product
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a class="header-nav-link" href="./index.html">Product</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-nav-link" href="./customers.html">Customers</a>
+            </li>
+            <li class="header-list-item-home">
+              <a class="header-nav-link-home" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-nav-link" href="./resourses.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-btn">
+          <li class="list-item-btn">
+            <button class="header-list-button" type="button">Sign In</button>
+          </li>
+          <li class="list-item-btn">
+            <button class="header-list-button second" type="button">
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--#region Hero-->
+      <section class="hero-pricing">
+        <div class="container">
+          <h3 class="hero-pricing-title-one">PRICING</h3>
+          <h2 class="hero-pricing-title-two">
+            Let’s get some real work done here.
+          </h2>
+          <p class="hero-pricing-text">
+            Prodict is your perfect solution for working. Get started now for
+            free
+          </p>
+          <div class="pricing-white">
+            <ul class="pricing-list">
+              <li class="pricing-list-item">
+                <h3 class="pricing-item-title">Free</h3>
+                <p class="pricing-item-text">Brief price description</p>
+                <p class="pricing-item-number">0</p>
+                <p class="pricing-item-dollar-green">$</p>
+                <p class="pricing-price-text">Per / month</p>
+                <ul class="pricing-price-item">
+                  <li class="pricing-price-list">
+                    <h4 class="pricing-price-title">Only 2 Operators</h4>
+                  </li>
+                  <li class="pricing-price-list">
+                    <h4 class="pricing-price-title">Notifications</h4>
+                  </li>
+                  <li class="pricing-price-list">
+                    <h4 class="pricing-price-title">Landing Pages</h4>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="pricing-btn-price" type="button">Order Now</button>
+          </div>
+          <div class="pricing-green">
+            <ul class="pricing-list-standard">
+              <li class="pricing-list-item-standard">
+                <h3 class="standard-item-title">Standard</h3>
+                <p class="standard-text">Brief price description</p>
+                <p class="pricing-item-five">5</p>
+                <p class="pricing-item-dollar-white">$</p>
+                <p class="standard-item-text">Per / month</p>
+                <ul class="pricing-standard-item">
+                  <li class="pricing-standard-list">
+                    <h4 class="pricing-standard-title">5+ Operators</h4>
+                  </li>
+                  <li class="pricing-standard-list">
+                    <h4 class="pricing-standard-title">Notifications</h4>
+                  </li>
+                  <li class="pricing-standard-list">
+                    <h4 class="pricing-standard-title">Landing Pages</h4>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="pricing-standard-btn" type="button">
+              Order Now
+            </button>
+          </div>
+          <div class="pricing-white">
+            <ul class="pricing-list">
+              <li class="pricing-list-item">
+                <h3 class="pricing-item-title">Premium</h3>
+                <p class="pricing-item-text">Brief price description</p>
+                <p class="pricing-item-number">10</p>
+                <p class="pricing-item-dollar-green">$</p>
+                <p class="pricing-price-text">Per / month</p>
+                <ul class="pricing-price-item">
+                  <li class="pricing-standard-list">
+                    <h4 class="pricing-price-title">10+ Operators</h4>
+                  </li>
+                  <li class="pricing-standard-list">
+                    <h4 class="pricing-price-title">Notifications</h4>
+                  </li>
+                  <li class="pricing-standard-list">
+                    <h4 class="pricing-price-title">Landing Pages</h4>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="pricing-btn-price" type="button">Order Now</button>
+          </div>
+        </div>
+      </section>
+      <!--#endregion Hero-->
+
+      <!--#region Enterprice-->
+      <section class="enterprice">
+        <div class="container">
+          <h3 class="enterprice-title-one">ENTERPRISE</h3>
+          <h2 class="enterprice-title-two">
+            Are you interested in a custom-tailored plan?
+          </h2>
+          <p class="enterprice-text">
+            Product is a set of advanced features for really large teams with
+            projects.
+          </p>
+          <button class="enterprice-btn" type="button">
+            Get in touch with us
+          </button>
+        </div>
+      </section>
+      <!--#endregion Enterprice-->
+
+      <!--#region Effects-->
+      <section class="effects">
+        <div class="container">
+          <h2 class="effects-title">
+            Product is being used with great effects alongside:
+          </h2>
+          <img src="./images/pricing-images/computers.png" alt="Computers" />
+          <ul class="effects-list">
+            <li class="effects-list-item">
+              <h3 class="effects-item-title">Enterpreneur</h3>
+              <p class="effects-item-text">
+                Product is a great way to help medium and samall enterprise
+                owners achieve their goals
+              </p>
+            </li>
+            <li class="effects-list-item">
+              <h3 class="effects-item-title">Accountants</h3>
+              <p class="effects-item-text">
+                Whether you are working on contract with clients, or on other
+                key accounting documents, Product is for you
+              </p>
+            </li>
+            <li class="effects-list-item">
+              <h3 class="effects-item-title">Universities</h3>
+              <p class="effects-item-text">
+                Organize university projects and have documents easily graded
+                online with Product
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--#endregion Effects-->
+
+      <!--#region Question-->
+      <section class="question">
+        <div class="container">
+          <h2 class="question-title">Frequently asked question</h2>
+          <p class="question-text">
+            Something is not clear? You need help? Check our FAQ section
+          </p>
+          <ul class="question-list">
+            <li class="question-list-item">
+              <h3 class="question-item-title">What are my payment option?</h3>
+            </li>
+            <li class="question-list-item">
+              <h3 class="question-item-title">
+                How can I invite collaborator to platform?
+              </h3>
+              <p class="question-item-text">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+            </li>
+            <li class="question-list-item">
+              <h3 class="question-item-title">Can I upgrade my plan?</h3>
+            </li>
+            <li class="question-list-item">
+              <h3 class="question-item-title">
+                Can I cancel my plan at anytime?
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--#region Question-->
+
+      <!--#region Promo-->
+      <section class="promo">
+        <div class="container">
+          <div class="promo-green">
+            <h2 class="promo-title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="promo-btn" type="button">Get This</button>
+            <img
+              src="./images/index-images/business-product.png"
+              alt="Business product"
+              width="351"
+              height="331"
+            />
+          </div>
+        </div>
+      </section>
+      <!--#endregion Promo-->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo" href="./index.html">
           <img
             src="./images/index-images/logo.png"
             alt="logo"
@@ -16,197 +262,37 @@
             height="36"
           />Product
         </a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./resourses.html">Resources</a></li>
+        <h3 class="footer-title">Resource</h3>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">About Us</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">Blog</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">Contact</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">FAQ</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
-    </header>
-    <main>
-      <!--#region Hero-->
-      <section>
-        <h3>PRICING</h3>
-        <h2>Let’s get some real work done here.</h2>
-        <p>
-          Prodict is your perfect solution for working. Get started now for free
+        <h3 class="footer-title">Legal Stuff</h3>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">Disclaimer</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">Financing</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">Privacy Policy</a>
+          </li>
+        </ul>
+        <p class="footer-text">
+          Made With Love By Figmaland All Right Reserved
         </p>
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <h4>Only 2 Operators</h4>
-              </li>
-              <li>
-                <h4>Notifications</h4>
-              </li>
-              <li>
-                <h4>Landing Pages</h4>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
-        <ul>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <p>5</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <h4>5+ Operators</h4>
-              </li>
-              <li>
-                <h4>Notifications</h4>
-              </li>
-              <li>
-                <h4>Landing Pages</h4>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
-        <ul>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <p>10</p>
-            <p>$</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <h4>10+ Operators</h4>
-              </li>
-              <li>
-                <h4>Notifications</h4>
-              </li>
-              <li>
-                <h4>Landing Pages</h4>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <!--#endregion Hero-->
-
-      <!--#region Group 1357-->
-      <section>
-        <h3>ENTERPRISE</h3>
-        <h2>Are you interested in a custom-tailored plan?</h2>
-        <p>
-          Product is a set of advanced features for really large teams with
-          projects.
-        </p>
-        <button type="button">Get in touch with us</button>
-      </section>
-      <!--#endregion Group 1357-->
-
-      <!--#region Group 1429-->
-      <section>
-        <h2>Product is being used with great effects alongside:</h2>
-        <img src="./images/pricing-images/computers.png" alt="Computers" />
-        <ul>
-          <li>
-            <h3>Enterpreneur</h3>
-            <p>
-              Product is a great way to help medium and samall enterprise owners
-              achieve their goals
-            </p>
-          </li>
-          <li>
-            <h3>Accountants</h3>
-            <p>
-              Whether you are working on contract with clients, or on other key
-              accounting documents, Product is for you
-            </p>
-          </li>
-          <li>
-            <h3>Universities</h3>
-            <p>
-              Organize university projects and have documents easily graded
-              online with Product
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!--#endregion Group 1429-->
-
-      <!--#region Group 1376-->
-      <section>
-        <h2>Frequently asked question</h2>
-        <p>Something is not clear? You need help? Check our FAQ section</p>
-        <ul>
-          <li>
-            <h3>What are my payment option?</h3>
-          </li>
-          <li>
-            <h3>How can I invite collaborator to platform?</h3>
-            <p>
-              After creating your account you will have an oppurtunity to create
-              your first project that will be associated withthe collaborators
-              e-mail. An invitation will be sent automatically. Then, invited
-              user will have to confirm his account by e-mail and finish userd
-              onboarding.
-            </p>
-          </li>
-          <li>
-            <h3>Can I upgrade my plan?</h3>
-          </li>
-          <li>
-            <h3>Can I cancel my plan at anytime?</h3>
-          </li>
-        </ul>
-      </section>
-      <!--#region Group 1376-->
-
-      <!--#region Frame 16-->
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button type="button">Get This</button>
-        <img
-          src="./images/index-images/business-product.png"
-          alt="Business product"
-          width="351"
-          height="331"
-        />
-      </section>
-      <!--#endregion Frame 16-->
-    </main>
-    <footer>
-      <a href="./index.html">
-        <img
-          src="./images/index-images/logo.png"
-          alt="logo"
-          width="40"
-          height="36"
-        />Product
-      </a>
-      <h3>Resource</h3>
-      <ul>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
-      </ul>
-      <h3>Legal Stuff</h3>
-      <ul>
-        <li><a href="">Disclaimer</a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
-      </ul>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      </div>
     </footer>
   </body>
 </html>
