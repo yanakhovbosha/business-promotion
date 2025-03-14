@@ -72,6 +72,11 @@
               <li class="hero-list-btn">
                 <button class="hero-btn" type="button">Get started</button>
               </li>
+              <li class="hero-list-icon">
+                <svg class="hero-icon" width="20" height="18">
+                  <use href="./images/icons.svg#icon-Triangle-Copy-6"></use>
+                </svg>
+              </li>
               <li class="hero-list-btn">
                 <button class="hero-btn-watch" type="button">
                   Watch the Video
@@ -95,6 +100,28 @@
       <section class="feature">
         <div class="container">
           <h2 class="feature-title">Product was Built Specifically for You</h2>
+          <ul class="icons-feature-list">
+            <li class="icon-feature-item green-icon">
+              <svg class="icon-feature" width="11" height="18">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </li>
+            <li class="icon-feature-item blue-icon">
+              <svg class="icon-feature" width="18" height="18">
+                <use href="./images/icons.svg#icon-wavy"></use>
+              </svg>
+            </li>
+            <li class="icon-feature-item violet-icon">
+              <svg class="icon-feature" width="16" height="18">
+                <use href="./images/icons.svg#icon-heart"></use>
+              </svg>
+            </li>
+            <li class="icon-feature-item red-icon">
+              <svg class="icon-feature" width="14" height="18">
+                <use href="./images/icons.svg#icon-untitled"></use>
+              </svg>
+            </li>
+          </ul>
           <ul class="feature-list">
             <li class="feature-list-item">
               <h3 class="item-title">First click tests</h3>
@@ -189,24 +216,43 @@
               characteristics, traits, personal choices and the overall
               personality of the person.
             </p>
-            <ul class="support-list">
-              <li class="support-list-item">
-                <p class="support-item-text">
-                  Never worry about overpaying for your energy again.
-                </p>
-              </li>
-              <li class="support-list-item">
-                <p class="support-item-text">
-                  We will only switch you to energy companies that we trust and
-                  will treat you right
-                </p>
-              </li>
-              <li class="support-list-item">
-                <p class="support-item-text">
-                  We track the markets daily and know where the savings are.
-                </p>
-              </li>
-            </ul>
+            <div class="support-icon">
+              <ul class="support-list-icon">
+                <li class="support-item-icon tick-orange">
+                  <svg class="support-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-tick"></use>
+                  </svg>
+                </li>
+                <li class="support-item-icon tick-red">
+                  <svg class="support-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-tick"></use>
+                  </svg>
+                </li>
+                <li class="support-item-icon tick-blue">
+                  <svg class="support-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-tick"></use>
+                  </svg>
+                </li>
+              </ul>
+              <ul class="support-list">
+                <li class="support-list-item">
+                  <p class="support-item-text">
+                    Never worry about overpaying for your energy again.
+                  </p>
+                </li>
+                <li class="support-list-item">
+                  <p class="support-item-text">
+                    We will only switch you to energy companies that we trust
+                    and will treat you right
+                  </p>
+                </li>
+                <li class="support-list-item">
+                  <p class="support-item-text">
+                    We track the markets daily and know where the savings are.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -369,15 +415,15 @@
           <h2 class="pricing-title">Price Table</h2>
           <p class="pricing-text">We offer competitive price</p>
           <div class="pricing-container">
-            <div class="pricing-white price">
+            <div class="pricing-price">
               <ul class="pricing-list">
                 <li class="pricing-list-item">
                   <h3 class="pricing-item-title">Free</h3>
                   <p class="pricing-item-text">Brief price description</p>
                   <div class="number">
-                    <p class="pricing-item-number">0</p>
-                    <div class="dollar">
-                      <p class="pricing-item-dollar-green">$</p>
+                    <p class="pricing-item-number green">0</p>
+                    <div>
+                      <p class="pricing-item-dollar green">$</p>
                       <p class="pricing-price-text">Per / month</p>
                     </div>
                   </div>
@@ -396,27 +442,27 @@
               </ul>
               <button class="pricing-btn-price" type="button">Order Now</button>
             </div>
-            <div class="pricing-green price">
+            <div class="pricing-price pricing-green">
               <ul class="pricing-list-standard">
-                <li class="pricing-list-item-standard">
-                  <h3 class="standard-item-title">Standard</h3>
-                  <p class="standard-text">Brief price description</p>
+                <li class="pricing-list-item">
+                  <h3 class="pricing-item-title white">Standard</h3>
+                  <p class="pricing-item-text white">Brief price description</p>
                   <div class="number">
-                    <p class="pricing-item-five">5</p>
+                    <p class="pricing-item-number white">5</p>
                     <div>
-                      <p class="pricing-item-dollar-white">$</p>
-                      <p class="standard-item-text">Per / month</p>
+                      <p class="pricing-item-dollar white">$</p>
+                      <p class="pricing-price-text white">Per / month</p>
                     </div>
                   </div>
-                  <ul class="pricing-standard-item">
-                    <li class="pricing-standard-list">
-                      <h4 class="pricing-standard-title">5+ Operators</h4>
+                  <ul class="pricing-price-item">
+                    <li class="pricing-price-list">
+                      <h4 class="pricing-price-title white">5+ Operators</h4>
                     </li>
-                    <li class="pricing-standard-list">
-                      <h4 class="pricing-standard-title">Notifications</h4>
+                    <li class="pricing-price-list">
+                      <h4 class="pricing-price-title white">Notifications</h4>
                     </li>
-                    <li class="pricing-standard-list">
-                      <h4 class="pricing-standard-title">Landing Pages</h4>
+                    <li class="pricing-price-list">
+                      <h4 class="pricing-price-title white">Landing Pages</h4>
                     </li>
                   </ul>
                 </li>
@@ -425,26 +471,26 @@
                 Order Now
               </button>
             </div>
-            <div class="pricing-white price">
+            <div class="pricing-price">
               <ul class="pricing-list">
                 <li class="pricing-list-item">
                   <h3 class="pricing-item-title">Premium</h3>
                   <p class="pricing-item-text">Brief price description</p>
                   <div class="number">
-                    <p class="pricing-item-number">10</p>
+                    <p class="pricing-item-number green">10</p>
                     <div class="dollar">
-                      <p class="pricing-item-dollar-green">$</p>
+                      <p class="pricing-item-dollar green">$</p>
                       <p class="pricing-price-text">Per / month</p>
                     </div>
                   </div>
                   <ul class="pricing-price-item">
-                    <li class="pricing-standard-list">
+                    <li class="pricing-price-list">
                       <h4 class="pricing-price-title">10+ Operators</h4>
                     </li>
-                    <li class="pricing-standard-list">
+                    <li class="pricing-price-list">
                       <h4 class="pricing-price-title">Notifications</h4>
                     </li>
-                    <li class="pricing-standard-list">
+                    <li class="pricing-price-list">
                       <h4 class="pricing-price-title">Landing Pages</h4>
                     </li>
                   </ul>
@@ -465,122 +511,261 @@
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics
           </p>
-          <ul class="feedback-list">
-            <li class="feedback-list-item">
-              <p class="feedback-item-text">
-                Product helps you see how many more days you need to work to
-                reach your financial goal. Product helps you see how many more
-                days you need to work to reach your financial goal. Product
-                helps you see how many more days you need to work to reach your
-                financial goal.
-              </p>
-              <img
-                src="./images/index-images/comment-one.jpg"
-                alt="Comment 1"
-                width="50"
-                height="50"
-              />
-              <h3 class="feedback-item-title">Wahid Ari</h3>
-              <p class="feedback-list-item-text">Designer</p>
-            </li>
-            <li class="feedback-list-item">
-              <p class="feedback-item-text">
-                Product helps you see how many more days you need to work to
-                reach your financial goal. Product helps you see how many more
-                days you need to work to reach your financial goal. Product
-                helps you see how many more days you need to work to reach your
-                financial goal.
-              </p>
-              <img
-                src="./images/index-images/comment-two.jpg"
-                alt="Comment 2"
-                width="50"
-                height="50"
-              />
-              <h3 class="feedback-item-title">Wahid Ari</h3>
-              <p class="feedback-list-item-text">Designer</p>
-            </li>
-            <li class="feedback-list-item">
-              <p class="feedback-item-text">
-                Product helps you see how many more days you need to work to
-                reach your financial goal. Product helps you see how many more
-                days you need to work to reach your financial goal. Product
-                helps you see how many more days you need to work to reach your
-                financial goal.
-              </p>
-              <img
-                src="./images/index-images/comment-three.jpg"
-                alt="Comment 3"
-                width="50"
-                height="50"
-              />
-              <h3 class="feedback-item-title">Wahid Ari</h3>
-              <p class="feedback-list-item-text">Designer</p>
-            </li>
-          </ul>
+          <div class="feedback-container">
+            <ul class="feedback-list">
+              <li class="feedback-list-item">
+                <ul class="feedback-list-icon feedback-icon-three">
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-1"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="feedback-item-text">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+                <div class="feedback-item-cont">
+                  <img
+                    src="./images/index-images/comment-one.jpg"
+                    alt="Comment 1"
+                    width="50"
+                    height="50"
+                  />
+                  <div class="feedback-item-container">
+                    <h3 class="feedback-item-title">Wahid Ari</h3>
+                    <p class="feedback-list-item-text">Designer</p>
+                  </div>
+                </div>
+              </li>
+              <li class="feedback-list-item">
+                <ul class="feedback-list-icon feedback-icon-three">
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-1"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="feedback-item-text">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+                <div class="feedback-item-cont">
+                  <img
+                    src="./images/index-images/comment-two.jpg"
+                    alt="Comment 2"
+                    width="50"
+                    height="50"
+                  />
+                  <div class="feedback-item-container">
+                    <h3 class="feedback-item-title">Wahid Ari</h3>
+                    <p class="feedback-list-item-text">Designer</p>
+                  </div>
+                </div>
+              </li>
+              <li class="feedback-list-item">
+                <ul class="feedback-list-icon feedback-icon-three">
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-2"></use>
+                    </svg>
+                  </li>
+                  <li class="feedback-item-icon">
+                    <svg class="feedback-icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-star-1"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="feedback-item-text">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+                <div class="feedback-item-cont">
+                  <img
+                    src="./images/index-images/comment-three.jpg"
+                    alt="Comment 3"
+                    width="50"
+                    height="50"
+                  />
+                  <div class="feedback-item-container">
+                    <h3 class="feedback-item-title">Wahid Ari</h3>
+                    <p class="feedback-list-item-text">Designer</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!--#endregion Feedback-->
 
       <!--#region Promo-->
       <section class="promo">
-        <div class="container">
-          <div class="promo-green">
+        <div class="container promo-green">
+          <div>
             <h2 class="promo-title">
               Join 100 Compannies who boost their business with Product
             </h2>
             <button class="promo-btn" type="button">Get This</button>
-            <img
-              src="./images/index-images/business-product.png"
-              alt="Business product"
-              width="351"
-              height="331"
-            />
           </div>
+          <img
+            src="./images/index-images/business-product.png"
+            alt="Business product"
+            width="351"
+            height="331"
+          />
         </div>
       </section>
       <!--#endregion Promo-->
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href="./index.html">
-          <img
-            src="./images/index-images/logo.png"
-            alt="logo"
-            width="40"
-            height="36"
-          />Product
-        </a>
-        <h3 class="footer-title">Resource</h3>
-        <ul class="footer-list">
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">About Us</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Blog</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Contact</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">FAQ</a>
-          </li>
-        </ul>
-        <h3 class="footer-title">Legal Stuff</h3>
-        <ul class="footer-list">
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Disclaimer</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Financing</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Privacy Policy</a>
-          </li>
-        </ul>
-        <p class="footer-text">
-          Made With Love By Figmaland All Right Reserved
-        </p>
+        <div class="footer-container-list">
+          <div class="footer-cont-icon">
+            <a class="footer-logo" href="./index.html">
+              <img
+                src="./images/index-images/logo.png"
+                alt="logo"
+                width="40"
+                height="36"
+              />Product
+            </a>
+            <ul class="footer-list-icon">
+              <li class="footer-item-icon">
+                <a class="footer-link-icon" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-item-icon">
+                <a class="footer-link-icon" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-item-icon">
+                <a class="footer-link-icon" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="feature-list-cont">
+            <ul class="footer-list">
+              <li>
+                <h3 class="footer-title">Resource</h3>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">About Us</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">Blog</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">Contact</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">FAQ</a>
+              </li>
+            </ul>
+            <ul class="footer-list">
+              <li>
+                <h3 class="footer-title">Legal Stuff</h3>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">Disclaimer</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">Financing</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-item-link" href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <form class="form-footer">
+            <p class="form-footer-text">
+              knowing you're always on the best energy deal.
+            </p>
+            <div class="form-input-cont">
+              <input
+                class="form-input"
+                required
+                name="user-tel"
+                placeholder="Enter your phone number"
+                type="tel"
+              />
+              <svg class="form-icon" width="18" height="28">
+                <use href="./images/icons.svg#icon-mobile-screen"></use>
+              </svg>
+            </div>
+            <button class="form-btn" type="submit">Sign up Now</button>
+          </form>
+        </div>
+        <div class="footer-text-cont">
+          <p class="footer-text">
+            Made With Love By Figmaland All Right Reserved
+          </p>
+        </div>
       </div>
     </footer>
   </body>
